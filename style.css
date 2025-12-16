@@ -768,3 +768,13 @@ img, video, svg {
     height: 350px;
    }
 }
+
+
+@media (max-width: 306px) {
+
+    .back-img{
+    height: 450px;
+    overflow: visible;
+   }
+    
+}
