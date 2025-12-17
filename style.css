@@ -228,6 +228,7 @@ body {
     height: 250px;
     overflow: hidden;
     margin-bottom: 15px;
+    position: relative;
 }
 
 .img-box img {
@@ -235,6 +236,25 @@ body {
     height: 100%;
     object-fit: cover;
     transition: 0.3s;
+    position: relative;
+}
+
+.img-box  .share  {
+    position: absolute;
+    z-index: 10000;
+    height: 50px;
+    width: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    bottom: 0;
+    right: 0;
+    background-color: #7f7f7f;
+    border: #d13644;
+    background: #333;
+    
+    
+
 }
 
 .card:hover .img-box img {
